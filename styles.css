@@ -1,0 +1,213 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/homepage.webp'); /* Update with your image path */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; 
+    
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 0 15px; /* Smaller padding for a more compact navbar */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px; /* Slightly smaller font size */
+    padding: 8px 10px; /* Adjusted padding for links */
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757; /* Darker background on hover */
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar ul li {
+        padding: 0 10px; /* Smaller padding on mobile */
+    }
+    
+    .navbar ul li a {
+        font-size: 14px; /* Smaller font size on mobile */
+    }
+
+    .content-section {
+        padding: 20px 10px; /* Smaller padding for mobile */
+        min-height: 50vh; /* Adjusted height for mobile */
+    }
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgba(35, 47, 62, 0.9); 
+    color: white;
+    text-align: center; 
+    padding: 15px 0; /* Reduced padding for footer */
+    width: 100%; 
+     position: relative; 
+    display: flex;
+    flex-direction: column;
+    margin: 100px; 
+}
+
+.footer-content ul { 
+     list-style-type: none; /* Removes bullet points */
+     padding: 100px; 
+     margin: 10px ; 
+    display: flex;
+    align-items: center;
+    margin-top: 22%;
+} 
+
+
+
+
+/* General Body Styles */
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/homepage.webp'); /* Update with your image path */
+     background-size: cover;
+    background-position: center;
+     background-repeat: no-repeat; 
+     height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ } 
+
+/* Container for Forms */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Fixed width for forms */
+    padding: 40px; /* Padding inside the container */
+    text-align: center;
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+}
+
+/* Form Title */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Fields */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit Button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Link Styles */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hidden Form */
+.hidden {
+    display: none; /* Hides elements with the 'hidden' class */
+}
+.footer-content {
+    text-align: center; /* Center the text */
+    font-size: 14px; /* Small font size for the copyright info */
+    padding: 10px;
+    /* border-top: 1px solid #3a4553; Subtle border between sections */
+    width: 100%;
+}
+/* General Body and Content Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure content takes up full space and pushes footer down */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+/*Responsive Styles */
+ @media (max-width: 768px) {
+    .footer-links {
+        flex-direction: row;
+        text-align: center; 
+     }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.navbar{
+    background-color: #95a045;
+}
